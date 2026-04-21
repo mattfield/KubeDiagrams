@@ -19,7 +19,6 @@
         pythonEnv = pkgs.python312.withPackages (ps: [
           ps.pyyaml
           ps.diagrams
-          ps.graphviz2drawio
         ]);
 
         kube-diagrams = pkgs.stdenv.mkDerivation {
